@@ -1,10 +1,10 @@
-a=int(input("Enter the value of a and b "))
-b=int(input())
-for i in range (a+1,b+1):
-    com=0
+a=int(input("Enter the Value of a:"))
+b=int(input("Enter the Value of b:"))
+for i in range(a+1,b+1):
+    comp=0
     for j in range(1,b+1):
         if(i%j==0):
-            com=com+1
-    if(com>2):
-        print(i ,end=" ")
+            comp=comp+1
+    if(comp>2):
+        print(i,end=" ")
 
